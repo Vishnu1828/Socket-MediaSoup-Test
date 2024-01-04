@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react'
+import Sockets from './Socket'
 
 const App: React.FC = () => {
-  return(
+  return (
     <div>
-      <h1>React Typescript Webpack Babel Boilerplate!!!</h1>
+      <Sockets />
     </div>
   )
 }

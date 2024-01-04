@@ -2,6 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
+const Dotenv = require('dotenv-webpack')
 
 module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
@@ -52,9 +53,12 @@ module.exports = {
     new FaviconsWebpackPlugin({
       logo: path.resolve(__dirname, '..', './public/react-icon.svg'),
     }),
+    new Dotenv({
+      path: `./.env`,
+    }),
   ],
   stats: 'errors-only',
   devServer: {
-    port: 3000,
+    port: 4000,
   },
 }

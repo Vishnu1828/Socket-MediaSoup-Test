@@ -1,0 +1,5 @@
+WEBSOCKET_MEDIASOUP_URL=https://api.bridgehealth.care/mediasoup
+CHAT_SOCKET_ENDPOINT=https://api.bridgehealth.care/chat
+
+# WEBSOCKET_MEDIASOUP_URL=http://localhost:8000/mediasoup
+# CHAT_SOCKET_ENDPOINT=http://localhost:8000/chat

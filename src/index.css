@@ -8,3 +8,78 @@ html,
 body {
   font-family: sans-serif;
 }
+.main-container {
+  width: 100%;
+  height: 100vh;
+}
+.sub-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+h2 {
+  width: 60%;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.video-containers {
+  width: 30%;
+  height: 70%;
+  border: solid 1px red;
+}
+.video-container {
+  width: 100%;
+  height: 70%;
+}
+.video {
+  width: 100%;
+  height: 100%;
+}
+.button {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+button {
+  width: 33%;
+  height: 60%;
+}
+.create {
+  height: 30%;
+}
+.Join-container {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+input {
+  width: 50%;
+  height: 50%;
+}
+.Instruction {
+  width: 50%;
+  line-height: 30px;
+}
+.video-container1 {
+  width: 100%;
+  height: 90%;
+}
+ul {
+  padding-left: 40px;
+}
